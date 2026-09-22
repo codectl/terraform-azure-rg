@@ -1,13 +1,13 @@
 module "naming" {
-  source  = "cloudnationhq/naming/azure"
-  version = "~> 0.13"
+  source  = "codectl/naming/azure"
+  version = "~> 0.1"
 
   suffix = ["demo", "dev"]
 }
 
 module "rg" {
-  source  = "cloudnationhq/rg/azure"
-  version = "~> 3.0"
+  source  = "codectl/rg/azure"
+  version = "~> 1.0"
 
   groups = {
     demo = {
