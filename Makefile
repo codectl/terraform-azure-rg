@@ -1,9 +1,6 @@
-.PHONY: all install-tools validate fmt docs test test-parallel test-sequential test-local test-unit
+.PHONY: all validate fmt docs check test test-parallel test-sequential test-local test-unit
 
-all: install-tools validate fmt docs
-
-install-tools:
-	go install github.com/terraform-docs/terraform-docs@latest
+all: validate fmt docs
 
 TEST_ARGS := $(if $(skip-destroy),-skip-destroy=$(skip-destroy)) \
              $(if $(exception),-exception=$(exception)) \
@@ -32,14 +29,10 @@ test-unit:
 	rm -rf .terraform terraform.tfstate terraform.tfstate.backup .terraform.lock.hcl
 
 docs:
-	@echo "Generating documentation for root and modules..."
-	terraform-docs markdown document . --output-file README.md --output-mode inject --hide modules
-	for dir in modules/*; do \
-		if [ -d "$$dir" ]; then \
-			echo "Processing $$dir..."; \
-			(cd "$$dir" && terraform-docs markdown document . --output-file README.md --output-mode inject --hide modules) || echo "Skipped: $$dir"; \
-		fi \
-	done
+	go run github.com/codectl/shapr/cmd/shapr@latest generate .
+
+check:
+	go run github.com/codectl/shapr/cmd/shapr@latest check -schema .
 
 fmt:
 	terraform fmt -recursive
