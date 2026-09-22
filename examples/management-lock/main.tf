@@ -5,6 +5,15 @@ module "naming" {
   suffix = ["demo", "dev"]
 }
 
+module "regions" {
+  source  = "codectl/locations/azure"
+  version = "~> 1.0"
+
+  location = {
+    primary = "westeurope"
+  }
+}
+
 module "rg" {
   source  = "codectl/rg/azure"
   version = "~> 1.0"
@@ -12,7 +21,7 @@ module "rg" {
   groups = {
     demo = {
       name     = module.naming.resource_group.name_unique
-      location = "westeurope"
+      location = module.regions.location.primary.name
 
       management_lock = {
         level = "ReadOnly"
