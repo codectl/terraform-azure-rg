@@ -1,0 +1,210 @@
+# Changelog
+
+## [3.1.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v3.0.0...v3.1.0) (2026-08-11)
+
+
+### Features
+
+* resource naming to this ([#78](https://github.com/CloudNationHQ/terraform-azure-rg/issues/78)) ([506d84e](https://github.com/CloudNationHQ/terraform-azure-rg/commit/506d84ebca5a9fdb36a77c991159cfd051623f3b))
+
+## [3.0.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.7.0...v3.0.0) (2026-08-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade to azurerm v5 ([#77](https://github.com/CloudNationHQ/terraform-azure-rg/issues/77))
+
+### Features
+
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#69](https://github.com/CloudNationHQ/terraform-azure-rg/issues/69)) ([11e2a96](https://github.com/CloudNationHQ/terraform-azure-rg/commit/11e2a9667487d43f5fcbd30f6d1f7f59b8c7ae01))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#71](https://github.com/CloudNationHQ/terraform-azure-rg/issues/71)) ([f257e8a](https://github.com/CloudNationHQ/terraform-azure-rg/commit/f257e8ac322dc844d3ef32ec6ae653c6148cf41a))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#72](https://github.com/CloudNationHQ/terraform-azure-rg/issues/72)) ([52135fd](https://github.com/CloudNationHQ/terraform-azure-rg/commit/52135fd00bcda540292fa2922cb78496277301e4))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#73](https://github.com/CloudNationHQ/terraform-azure-rg/issues/73)) ([672a09f](https://github.com/CloudNationHQ/terraform-azure-rg/commit/672a09fc2709a8cdd2350917f3ee71e09e5d1d63))
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#74](https://github.com/CloudNationHQ/terraform-azure-rg/issues/74)) ([52045bd](https://github.com/CloudNationHQ/terraform-azure-rg/commit/52045bda0c76c790540a2b298096a5875f289fea))
+* **deps:** bump github.com/ulikunitz/xz from 0.5.10 to 0.5.14 in /tests ([#62](https://github.com/CloudNationHQ/terraform-azure-rg/issues/62)) ([45c0828](https://github.com/CloudNationHQ/terraform-azure-rg/commit/45c0828331560b5987c760ca22509fce2d9e5281))
+* **deps:** bump golang.org/x/crypto from 0.36.0 to 0.45.0 in /tests ([#67](https://github.com/CloudNationHQ/terraform-azure-rg/issues/67)) ([73b7478](https://github.com/CloudNationHQ/terraform-azure-rg/commit/73b7478300003a987acd7e21ad57360a34db4500))
+* **deps:** bump golang.org/x/crypto from 0.45.0 to 0.52.0 in /tests ([#75](https://github.com/CloudNationHQ/terraform-azure-rg/issues/75)) ([ef438f5](https://github.com/CloudNationHQ/terraform-azure-rg/commit/ef438f596bf7f492ed22f3c61c79a05999593a8b))
+* Upgrade to azurerm v5 ([#77](https://github.com/CloudNationHQ/terraform-azure-rg/issues/77)) ([2dfc795](https://github.com/CloudNationHQ/terraform-azure-rg/commit/2dfc795d817c3f521b9f42a86cfcb0cb46db1afb))
+
+## [2.7.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.6.0...v2.7.0) (2025-05-19)
+
+
+### Features
+
+* **deps:** bump github.com/cloudnationhq/az-cn-go-validor in /tests ([#57](https://github.com/CloudNationHQ/terraform-azure-rg/issues/57)) ([c0cc3b5](https://github.com/CloudNationHQ/terraform-azure-rg/commit/c0cc3b5d8401c60fdf0550ba70c2634cf2134558))
+* implement flexible resource naming ([#58](https://github.com/CloudNationHQ/terraform-azure-rg/issues/58)) ([52c5eed](https://github.com/CloudNationHQ/terraform-azure-rg/commit/52c5eedec77bee752647b2477f63d412b1433172))
+
+## [2.6.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.5.1...v2.6.0) (2025-05-08)
+
+
+### Features
+
+* replace deployment test code with module consumption and fix tags property idempotence ([#55](https://github.com/CloudNationHQ/terraform-azure-rg/issues/55)) ([d24e591](https://github.com/CloudNationHQ/terraform-azure-rg/commit/d24e59195d86992f5211cd9ee359bb6a1aa43f16))
+
+## [2.5.1](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.5.0...v2.5.1) (2025-04-14)
+
+
+### Bug Fixes
+
+* fix submodule generation from makefile ([#52](https://github.com/CloudNationHQ/terraform-azure-rg/issues/52)) ([b7008a4](https://github.com/CloudNationHQ/terraform-azure-rg/commit/b7008a49adcf8efa18767cf0ef2e41588edfe42f))
+
+## [2.5.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.4.0...v2.5.0) (2025-04-11)
+
+
+### Features
+
+* add type definitions ([#50](https://github.com/CloudNationHQ/terraform-azure-rg/issues/50)) ([b5a0a08](https://github.com/CloudNationHQ/terraform-azure-rg/commit/b5a0a08f5ba6ea9ca8d01e132d2b6c8a960c9f08))
+
+## [2.4.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.3.0...v2.4.0) (2025-04-07)
+
+
+### Features
+
+* add managed by property ([#48](https://github.com/CloudNationHQ/terraform-azure-rg/issues/48)) ([46b6fa5](https://github.com/CloudNationHQ/terraform-azure-rg/commit/46b6fa5e2c9347138e4873fe85b7e0b401908547))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#46](https://github.com/CloudNationHQ/terraform-azure-rg/issues/46)) ([98501a5](https://github.com/CloudNationHQ/terraform-azure-rg/commit/98501a58b41ce1dbf5d100b27d29057470760402))
+* **deps:** bump golang.org/x/net from 0.33.0 to 0.36.0 in /tests ([#47](https://github.com/CloudNationHQ/terraform-azure-rg/issues/47)) ([8c4bc9a](https://github.com/CloudNationHQ/terraform-azure-rg/commit/8c4bc9ae05e0f3f5eb934661063352a94177604c))
+
+## [2.3.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.2.0...v2.3.0) (2025-01-21)
+
+
+### Features
+
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#40](https://github.com/CloudNationHQ/terraform-azure-rg/issues/40)) ([ca98179](https://github.com/CloudNationHQ/terraform-azure-rg/commit/ca98179d682a91e14519ac2a57ec44fff08bb1a1))
+* **deps:** bump golang.org/x/crypto from 0.29.0 to 0.31.0 in /tests ([#43](https://github.com/CloudNationHQ/terraform-azure-rg/issues/43)) ([cf86bd4](https://github.com/CloudNationHQ/terraform-azure-rg/commit/cf86bd4d6cf368bb65d9d9bad80a865c8eae920e))
+* **deps:** bump golang.org/x/net from 0.31.0 to 0.33.0 in /tests ([#44](https://github.com/CloudNationHQ/terraform-azure-rg/issues/44)) ([b9ad633](https://github.com/CloudNationHQ/terraform-azure-rg/commit/b9ad633ae8350a425c9393435d4fdcad3c0eba79))
+* remove temporary files when deployment tests fails ([#41](https://github.com/CloudNationHQ/terraform-azure-rg/issues/41)) ([7b901ee](https://github.com/CloudNationHQ/terraform-azure-rg/commit/7b901ee457a45378a58431f18350181345492b15))
+
+## [2.2.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.1.0...v2.2.0) (2024-11-11)
+
+
+### Features
+
+* enhance testing with sequential, parallel modes and flags for exceptions and skip-destroy ([#37](https://github.com/CloudNationHQ/terraform-azure-rg/issues/37)) ([e0ca443](https://github.com/CloudNationHQ/terraform-azure-rg/commit/e0ca443aa18afb0bd0f4cbe705badf3c50de901d))
+
+## [2.1.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v2.0.0...v2.1.0) (2024-10-11)
+
+
+### Features
+
+* auto generated docs and refine makefile ([#35](https://github.com/CloudNationHQ/terraform-azure-rg/issues/35)) ([f13951b](https://github.com/CloudNationHQ/terraform-azure-rg/commit/f13951b5593b3f85e8856ff49114976a328457b7))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#34](https://github.com/CloudNationHQ/terraform-azure-rg/issues/34)) ([67a684b](https://github.com/CloudNationHQ/terraform-azure-rg/commit/67a684b4d4fe3048e83e62b4d1e0f6f1c491c2c6))
+
+## [2.0.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v1.1.0...v2.0.0) (2024-09-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* Version 4 of the azurerm provider includes breaking changes.
+
+### Features
+
+* upgrade azurerm provider to v4 ([#32](https://github.com/CloudNationHQ/terraform-azure-rg/issues/32)) ([ae4bedc](https://github.com/CloudNationHQ/terraform-azure-rg/commit/ae4bedce18c0da8bb97f4345ce1a156280e33f48))
+
+### Upgrade from v1.1.0 to v2.0.0:
+
+- Update module reference to: `version = "~> 2.0"`
+
+## [1.1.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v1.0.0...v1.1.0) (2024-09-18)
+
+
+### Features
+
+* add type definitions and simplified tests ([#31](https://github.com/CloudNationHQ/terraform-azure-rg/issues/31)) ([88dcdb0](https://github.com/CloudNationHQ/terraform-azure-rg/commit/88dcdb0fe19752ccdcdc9116ff956444209cb929))
+* **deps:** bump github.com/gruntwork-io/terratest in /tests ([#28](https://github.com/CloudNationHQ/terraform-azure-rg/issues/28)) ([679a1d9](https://github.com/CloudNationHQ/terraform-azure-rg/commit/679a1d9b6cf658e81e6efaa90c66c440c7befa53))
+
+## [1.0.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.9.0...v1.0.0) (2024-08-27)
+
+
+#### ⚠ BREAKING CHANGES
+
+* aligned properties
+
+### Features
+
+* merge output for newly created and existing groups ([#25](https://github.com/CloudNationHQ/terraform-azure-rg/issues/25)) ([4b488f5](https://github.com/CloudNationHQ/terraform-azure-rg/commit/4b488f5c723d532803b2c148da1dfeb40d927acb))
+
+### Upgrade from v0.9.0 to v1.0
+
+- Update module reference to: `version = "~> 1.0"`
+- Rename variable:
+   * region -> location
+- Rename output variable:
+   * groups_existing -> groups
+
+## [0.9.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.8.0...v0.9.0) (2024-07-04)
+
+
+### Features
+
+* update contribution docs ([#23](https://github.com/CloudNationHQ/terraform-azure-rg/issues/23)) ([7b61ef7](https://github.com/CloudNationHQ/terraform-azure-rg/commit/7b61ef758147f84e3778162b8644767c794e8b7b))
+
+## [0.8.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.7.1...v0.8.0) (2024-07-02)
+
+
+### Features
+
+* add issue template ([#22](https://github.com/CloudNationHQ/terraform-azure-rg/issues/22)) ([c370fe2](https://github.com/CloudNationHQ/terraform-azure-rg/commit/c370fe26d2cd0c50c20aab97c08fe89706189430))
+* create pull request template ([#19](https://github.com/CloudNationHQ/terraform-azure-rg/issues/19)) ([bb14c2e](https://github.com/CloudNationHQ/terraform-azure-rg/commit/bb14c2e3d77d38c627085ef6edf8b1f146b3c7a2))
+
+## [0.7.1](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.7.0...v0.7.1) (2024-04-17)
+
+
+### Bug Fixes
+
+* small correction output existing groups ([#17](https://github.com/CloudNationHQ/terraform-azure-rg/issues/17)) ([b6fb6cb](https://github.com/CloudNationHQ/terraform-azure-rg/commit/b6fb6cbe6338af0902aa9cbbf769438d9f77ea10))
+
+## [0.7.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.6.0...v0.7.0) (2024-04-10)
+
+
+### Features
+
+* resource group handling now conditionally includes a global parameter for existing groups ([#15](https://github.com/CloudNationHQ/terraform-azure-rg/issues/15)) ([c8d2901](https://github.com/CloudNationHQ/terraform-azure-rg/commit/c8d29013388ead5a8cbf77e75ac8cb740166ce5e))
+
+## [0.6.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.5.0...v0.6.0) (2024-03-22)
+
+
+### Features
+
+* small update documentation and added existing groups output ([#13](https://github.com/CloudNationHQ/terraform-azure-rg/issues/13)) ([23c9a8a](https://github.com/CloudNationHQ/terraform-azure-rg/commit/23c9a8a6989cf193ebab28defa6fee48a7dbae90))
+
+## [0.5.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.4.1...v0.5.0) (2024-03-22)
+
+
+### Features
+
+* add support for existing groups ([#11](https://github.com/CloudNationHQ/terraform-azure-rg/issues/11)) ([1911630](https://github.com/CloudNationHQ/terraform-azure-rg/commit/1911630cd0c155dad29d53cf62493d4c0e33df7f))
+
+## [0.4.1](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.4.0...v0.4.1) (2024-03-21)
+
+
+### Bug Fixes
+
+* fix expressional conditions location ([#9](https://github.com/CloudNationHQ/terraform-azure-rg/issues/9)) ([c1f6517](https://github.com/CloudNationHQ/terraform-azure-rg/commit/c1f65175ffa7b26c43a278b405cd420f4829f853))
+
+## [0.4.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.3.0...v0.4.0) (2024-03-21)
+
+
+### Features
+
+* introduced the capability to utilize some global properties ([#7](https://github.com/CloudNationHQ/terraform-azure-rg/issues/7)) ([1a79181](https://github.com/CloudNationHQ/terraform-azure-rg/commit/1a791814f20aff1733adf0504b135b87b2488fd1))
+
+## [0.3.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.2.0...v0.3.0) (2024-01-19)
+
+
+### Features
+
+* small refactor workflows ([#5](https://github.com/CloudNationHQ/terraform-azure-rg/issues/5)) ([a39df4f](https://github.com/CloudNationHQ/terraform-azure-rg/commit/a39df4f5406dc0244b04cab72a6a655e65f1f22d))
+
+## [0.2.0](https://github.com/CloudNationHQ/terraform-azure-rg/compare/v0.1.0...v0.2.0) (2023-12-06)
+
+
+### Features
+
+* add optional tags support ([#3](https://github.com/CloudNationHQ/terraform-azure-rg/issues/3)) ([7ae05cc](https://github.com/CloudNationHQ/terraform-azure-rg/commit/7ae05cc10eaeb2f69266dd1c34f4579bd5d71bfa))
+
+## 0.1.0 (2023-11-03)
+
+
+### Features
+
+* add initial resources ([#1](https://github.com/CloudNationHQ/terraform-azure-rg/issues/1)) ([0add3e1](https://github.com/CloudNationHQ/terraform-azure-rg/commit/0add3e146911040d12ff2915c17d882e6ed506cc))
