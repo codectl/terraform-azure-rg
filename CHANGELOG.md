@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/codectl/terraform-azure-rg/compare/v1.1.0...v1.2.0) (2026-09-22)
+
+
+### Features
+
+* update examples and housekeeping ([#4](https://github.com/codectl/terraform-azure-rg/issues/4)) ([e5c1930](https://github.com/codectl/terraform-azure-rg/commit/e5c1930e1d466e7dfa5bd91802db9996486cb216))
+
 ## [1.1.0](https://github.com/codectl/terraform-azure-rg/compare/v1.0.0...v1.1.0) (2026-09-22)
 
 
